@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://podwrwo44ebn"]
+
+[ext_resource type="Texture2D" uid="uid://b3dyywj7rtgmv" path="res://floor_side.png" id="1_2fvls"]
+
+[node name="Tile" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+self_modulate = Color(0.364706, 0.109804, 0.176471, 1)
+visibility_layer = 16
+texture = ExtResource("1_2fvls")
